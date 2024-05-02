@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        background-image: url(main.png);
+        background-position: center;
+        background-size: 300% 100%;
+    }
+
+    .main-box {
+        width: 100%;
+    }
+
+    .search-box {
+        width: 90%;
+    }
+
+    .button-box {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    #right-arrow-ch:checked .right-arrow-open {
+        bottom: 60px;
+    }
+
+    .right-arrow-open {
+        align-self: flex-end;
+        justify-self: flex-end;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .button-box svg {
+        width: 22px;
+    }
+
+    .top-right {
+        gap: 10px;
+    }
+
+    .battery-info {
+        width: 192px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .button-item:hover p {
+        font-size: 14px;
+    }
+}
